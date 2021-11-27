@@ -1,0 +1,9 @@
+.title {
+    margin-top: 15vh;
+    margin-bottom: 4rem;
+  }
+  .title h2 {
+    color: var(--clr-gold);
+    font-family: "Great Vibes", cursive;
+    text-align: center;
+  }
