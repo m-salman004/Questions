@@ -30,3 +30,37 @@
     letter-spacing: var(--spacing);
     color: var(--clr-grey-1);
   }
+  .question-btn {
+    font-size: 1.5rem;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    color: var(--clr-gold);
+    transition: var(--transition);
+  }
+  .question-btn:hover {
+    transform: rotate(90deg);
+  }
+  .question-text {
+    padding: 1rem 0 1.5rem 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .question-text p {
+    margin-bottom: 0;
+  }
+  /* hide text */
+  .question-text {
+    display: none;
+  }
+  .show-text .question-text {
+    display: block;
+  }
+  .minus-icon {
+    display: none;
+  }
+  .show-text .minus-icon {
+    display: inline;
+  }
+  .show-text .plus-icon {
+    display: none;
+  }
